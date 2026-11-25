@@ -1,1 +1,17 @@
+name = "cricket-telegram-tracking"
+main = "src/index.js"
+compatibility_date = "2026-11-25"
 
+[vars]
+TELEGRAM_CHAT_ID = "PASTE_CHANNEL_ID"
+META_PIXEL_ID = "1183994404361808"
+META_API_VERSION = "v25.0"
+LANDING_PAGE_URL = "https://cricketsense.site/sense"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cricket-tracking"
+database_id = "PASTE_DATABASE_ID"
+
+[triggers]
+crons = ["* * * * *"]
