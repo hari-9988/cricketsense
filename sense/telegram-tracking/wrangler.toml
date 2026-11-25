@@ -3,7 +3,7 @@ main = "src/index.js"
 compatibility_date = "2026-11-25"
 
 [vars]
-TELEGRAM_CHAT_ID = "PASTE_CHANNEL_ID"
+TELEGRAM_CHAT_ID = "-1003670100599"
 META_PIXEL_ID = "1183994404361808"
 META_API_VERSION = "v25.0"
 LANDING_PAGE_URL = "https://cricketsense.site/sense"
