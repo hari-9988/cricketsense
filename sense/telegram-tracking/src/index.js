@@ -15,7 +15,7 @@ function json(data, status = 200, origin = ALLOWED_ORIGIN) {
 
 async function telegram(method, env, params = {}) {
   const response = await fetch(
-    https://api.telegram.org/bot${env.BOT_TOKEN}/${method},
+    'https://api.telegram.org/bot${env.BOT_TOKEN}/${method}',
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
