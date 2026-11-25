@@ -164,6 +164,7 @@ action_source: "website",
 event_source_url: env.LANDING_PAGE_URL,
 user_data: userData
 }]
+test_event_code:"TEST27752"
 };
 
 await env.DB.prepare(`
