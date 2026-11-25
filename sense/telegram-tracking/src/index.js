@@ -85,15 +85,6 @@ invite_link: inviteLink
 }
 
 async function handleTelegramWebhook(request, env, ctx) {
-  console.log("WEBHOOK DIAGNOSTIC", {
-headerReceived: Boolean(
-request.headers.get("X-Telegram-Bot-Api-Secret-Token")
-),
-secretConfigured: Boolean(env.TELEGRAM_WEBHOOK_SECRET),
-secretMatches:
-request.headers.get("X-Telegram-Bot-Api-Secret-Token") ===
-env.TELEGRAM_WEBHOOK_SECRET
-});
 const secret = request.headers.get(
 "X-Telegram-Bot-Api-Secret-Token"
 );
