@@ -11,7 +11,7 @@ LANDING_PAGE_URL = "https://cricketsense.site/sense"
 [[d1_databases]]
 binding = "DB"
 database_name = "cricket-tracking"
-database_id = "PASTE_DATABASE_ID"
+database_id = "39afe953-f3aa-4d9b-8930-31b512c8dedd"
 
 [triggers]
 crons = ["* * * * *"]
